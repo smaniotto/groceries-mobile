@@ -1,19 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react'
 import {
   AppRegistry,
   View,
-} from 'react-native';
+} from 'react-native'
 
 
-class App extends Component {
-  render() {
-    return (
-      <View>
-        //Start app development here!
-      </View>
-    );
-  }
-}
+const App = () => <View />
 
 
-AppRegistry.registerComponent('GroceriesList', () => App);
+AppRegistry.registerComponent('GroceriesList', () => App)
