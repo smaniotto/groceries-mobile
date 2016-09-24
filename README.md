@@ -17,8 +17,8 @@ Mobile application to manage shared groceries shopping lists.
 1. Write stories for each components. Example:
 
   ```js
-  import React from 'react';
-  import { storiesOf, action } from '@kadira/storybook';
+  import React from 'react'
+  import { storiesOf, action } from '@kadira/storybook'
 
   storiesOf('Button', module)
     .add('with text', () => (
@@ -26,5 +26,5 @@ Mobile application to manage shared groceries shopping lists.
     ))
     .add('with some emoji', () => (
       <Button onClick={action('clicked')}>😀 😎 👍 💯</Button>
-    ));
+    ))
   ```
