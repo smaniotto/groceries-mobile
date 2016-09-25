@@ -42,3 +42,6 @@ android/keystores/debug.keystore
 
 # Stories auto-created files
 storybook/stories.js
+
+# Tests auto-created files
+tests/tests.js
